@@ -101,10 +101,12 @@
     <section class="bg-[#1C2226] text-white">
       <div class="py-10 w-10/12 mx-auto">
         <h2 class="text-5xl font-bold text-center">
-          My <span class="text-blue-400">Skills</span>
+          My <span class="text-blue-500">Skills</span>
         </h2>
         <!-- this is the card section -->
-        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10 py-10">
+        <div
+          class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10 py-10"
+        >
           <!-- this is single card -->
           <div
             class="bg-[#1E1E1E] shadow-blue-900 shadow-md p-10 rounded-xl flex flex-col items-center gap-5 text-justify"
@@ -120,10 +122,10 @@
               Quia aut aut vel harum ullam eum. Nihil minima fugit fuga
             </p>
             <button
-            class="bg-blue-500 py-3 px-5 rounded-xl font-bold text-lg my-5 shadow-lg shadow-blue-400"
-          >
-            Read more
-          </button>
+              class="bg-blue-500 py-3 px-5 rounded-xl font-bold text-lg my-5 shadow-lg shadow-blue-400"
+            >
+              Read more
+            </button>
           </div>
           <!-- this is single card -->
           <div
@@ -140,10 +142,10 @@
               Quia aut aut vel harum ullam eum. Nihil minima fugit fuga
             </p>
             <button
-            class="bg-blue-500 py-3 px-5 rounded-xl font-bold text-lg my-5 shadow-lg shadow-blue-400"
-          >
-            Read more
-          </button>
+              class="bg-blue-500 py-3 px-5 rounded-xl font-bold text-lg my-5 shadow-lg shadow-blue-400"
+            >
+              Read more
+            </button>
           </div>
           <!-- this is single card -->
           <div
@@ -160,13 +162,96 @@
               Quia aut aut vel harum ullam eum. Nihil minima fugit fuga
             </p>
             <button
-            class="bg-blue-500 py-3 px-5 rounded-xl font-bold text-lg my-5 shadow-lg shadow-blue-400"
-          >
-            Read more
-          </button>
+              class="bg-blue-500 py-3 px-5 rounded-xl font-bold text-lg my-5 shadow-lg shadow-blue-400"
+            >
+              Read more
+            </button>
           </div>
-
         </div>
+      </div>
+    </section>
+
+    <!-- this is the Work section -->
+    <section class="bg-[url(/images/Projects_bg.png)] text-white">
+      <div class="w-10/12 mx-auto py-15 space-y-5">
+        <h2 class="text-6xl font-bold">
+          My recent <span class="text-blue-500">works</span>
+        </h2>
+        <div class="flex gap-5">
+          <button
+            class="bg-[#1C2226] hover:bg-blue-500 py-1 md:py-3 px-5 md:px-10 rounded-4xl font-bold text-sm md:text-lg my-5 shadow-lg shadow-gray-700 hover:shadow-blue-400"
+          >
+            All
+          </button>
+          <button
+            class="bg-[#1C2226] hover:bg-blue-500 py-1 md:py-3 px-5 md:px-10 rounded-4xl font-bold text-sm md:text-lg my-5 shadow-lg shadow-gray-700 hover:shadow-blue-400"
+          >
+            UI
+          </button>
+          <button
+            class="bg-[#1C2226] hover:bg-blue-500 py-1 md:py-3 px-5 md:px-10 rounded-4xl font-bold text-sm md:text-lg my-5 shadow-lg shadow-gray-700 hover:shadow-blue-400"
+          >
+            UX
+          </button>
+          <button
+            class="bg-[#1C2226] hover:bg-blue-500 py-1 md:py-3 px-5 md:px-10 rounded-4xl font-bold text-sm md:text-lg my-5 shadow-lg shadow-gray-700 hover:shadow-blue-400"
+          >
+            Web Design
+          </button>
+        </div>
+        <!-- project cards -->
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10">
+          <div class="p-10 bg-[rgba(57,62,70,0.5)] rounded-lg">
+            <img class="w-full rounded-sm" src="images/project_01.png" alt="" />
+          </div>
+          <div class="p-10 bg-[rgba(57,62,70,0.5)] rounded-lg">
+            <img class="w-full rounded-sm" src="images/project_02.png" alt="" />
+          </div>
+          <div class="p-10 bg-[rgba(57,62,70,0.5)] rounded-lg">
+            <img class="w-full rounded-sm" src="images/project_03.png" alt="" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- contact section -->
+    <section class="bg-[#1C2226] text-white py-15">
+      <div class="w-10/12 mx-auto">
+        <h2 class="text-6xl font-bold text-center">
+          Contact <span class="text-blue-500">Me?</span>
+        </h2>
+        <!-- this is the form -->
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-5 py-15 w-full">
+          <input
+            class="text-gray-100 bg-gray-600 p-5 rounded-md border-gray-200 border-2"
+            type="text"
+            name="name"
+            placeholder="First Name"
+          />
+          <input
+            class="text-gray-100 bg-gray-600 p-5 rounded-md border-gray-200 border-2"
+            type="text"
+            name="name"
+            placeholder="Last Name"
+          />
+          <input
+            class="text-gray-100 bg-gray-600 p-5 rounded-md border-gray-200 border-2 md:col-span-2"
+            type="text"
+            name="name"
+            placeholder="Email"
+          />
+          <textarea
+            class="text-gray-100 bg-gray-600 p-5 rounded-md border-gray-200 border-2 md:col-span-2 h-72"
+            name=""
+            placeholder="Write About you"
+            id=""
+          ></textarea>
+        </div>
+        <button
+          class="bg-blue-500 py-1 md:py-3 px-5 md:px-10 rounded-4xl font-bold text-sm md:text-lg my-5 shadow-lgshadow-blue-400"
+        >
+          Web Design
+        </button>
       </div>
     </section>
   </body>
