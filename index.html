@@ -1,53 +1,98 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Portfolio</title>
     <!-- this is CDN url of tailwind  -->
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
     <!-- this is the link of css -->
-     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css" />
     <!-- link of fontawesome -->
-     <script src="https://kit.fontawesome.com/3ee5fd7562.js" crossorigin="anonymous"></script>
-
-</head>
-<body>
+    <script
+      src="https://kit.fontawesome.com/3ee5fd7562.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
     <!-- this is the header section -->
-     <header class="bg-[#1C2226] text-white">
-        <!-- this is the nav section -->
-         <nav class="flex flex-col md:flex-row items-center justify-between text-center md:text-start w-10/12 mx-auto py-6">
-            <h2 class="text-4xl font-extrabold cursor-pointer mb-4 md:mb-0">F A</h2>
-            <ul class="flex gap-5 md:gap-15 justify-between md:justify-self-end md:text-lg font-medium">
-                <li class="cursor-pointer">Home</li>
-                <li class="cursor-pointer">About</li>
-                <li class="cursor-pointer">Skills</li>
-                <li class="cursor-pointer">Education</li>
-                <li class="cursor-pointer">Contact</li>
-            </ul>
-         </nav>
+    <header class="bg-[#1C2226] text-white">
+      <!-- this is the nav section -->
+      <nav
+        class="flex flex-col md:flex-row items-center justify-between text-center md:text-start w-10/12 mx-auto py-6"
+      >
+        <h2 class="text-4xl font-extrabold cursor-pointer mb-4 md:mb-0">F A</h2>
+        <ul
+          class="flex gap-5 md:gap-15 justify-between md:justify-self-end md:text-lg font-medium"
+        >
+          <li class="cursor-pointer">Home</li>
+          <li class="cursor-pointer">About</li>
+          <li class="cursor-pointer">Skills</li>
+          <li class="cursor-pointer">Education</li>
+          <li class="cursor-pointer">Contact</li>
+        </ul>
+      </nav>
 
-         <!-- thi is banner section -->
-          <section class="w-10/12 mx-auto py-12 flex flex-col-reverse md:flex-row justify-between items-center">
-            <div class="w-full md:w-6/12 space-y-2 text-center md:text-start">
-                <h2 class="text-4xl font-medium">Hellow it's Me</h2>
-                <h2 class="text-8xl font-bold">Faiyaz Ahmed</h2>
-                <h2 class="text-4xl font-medium">And I'm <span class="text-blue-400">A</span></h2>
-                <p class="text-xl w-10/12 mx-auto md:mx-0 my-4">Vero praesentium libero rerum est repellendus. Mollitia et ipsam qui at ut magnam enim.</p>
-                <!-- font awesome icons -->
-                <div class="text-4xl text-blue-500">
-                    <i class="mx-2 fa-brands fa-linkedin"></i>
-                    <i class="mx-2 fa-brands fa-facebook"></i>
-                    <i class="mx-2 fa-brands fa-instagram"></i>
-                    <i class="mx-2 fa-brands fa-square-x-twitter"></i>
-                </div>
-                <button class="bg-blue-500 py-3 px-5 rounded-xl font-bold text-lg my-5 shadow-lg shadow-blue-400">Download CV</button>
-            </div>
-            <div class="relative">
-                <img class="w-full absolute" src="images/banner.png" alt="">
-                <img class="w-full " src="images/Polygon.png" alt="">
-            </div>
-          </section>
-     </header>
-</body>
+      <!-- thi is banner section -->
+      <section
+        class="w-10/12 mx-auto py-12 flex flex-col-reverse md:flex-row justify-between items-center"
+      >
+        <div class="w-full md:w-6/12 space-y-2 text-center md:text-start">
+          <h2 class="text-4xl font-medium">Hellow it's Me</h2>
+          <h2 class="text-8xl font-bold">Faiyaz Ahmed</h2>
+          <h2 class="text-4xl font-medium">
+            And I'm <span class="text-blue-400">A</span>
+          </h2>
+          <p class="text-xl w-10/12 mx-auto md:mx-0 my-4">
+            Vero praesentium libero rerum est repellendus. Mollitia et ipsam qui
+            at ut magnam enim.
+          </p>
+          <!-- font awesome icons -->
+          <div class="text-4xl text-blue-500">
+            <i class="mx-2 fa-brands fa-linkedin"></i>
+            <i class="mx-2 fa-brands fa-facebook"></i>
+            <i class="mx-2 fa-brands fa-instagram"></i>
+            <i class="mx-2 fa-brands fa-square-x-twitter"></i>
+          </div>
+          <button
+            class="bg-blue-500 py-3 px-5 rounded-xl font-bold text-lg my-5 shadow-lg shadow-blue-400"
+          >
+            Download CV
+          </button>
+        </div>
+        <div class="relative">
+          <img class="w-full absolute" src="images/banner.png" alt="" />
+          <img class="w-full" src="images/Polygon.png" alt="" />
+        </div>
+      </section>
+    </header>
+
+    <!-- this is the about section -->
+    <section class="bg-[#25282A] text-white">
+      <div class="flex flex-col md:flex-row justify-between items-center w-10/12 mx-auto py-10">
+        <div class="relative">
+          <img class="w-full absolute top-14" src="images/banner.png" alt="" />
+          <img class="w-full" src="images/rouded.png" alt="" />
+        </div>
+        <div class="w-full md:w-6/12 space-y-5 text-center md:text-start">
+          <h2 class="text-8xl font-bold">About me</h2>
+          <h2 class="text-6xl font-medium">UI/UX Designer</h2>
+          <p class="text-2xl">
+            Et blanditiis sit neque provident soluta quibusdam. Ut optio nobis.
+            Eligendi voluptas qui maxime id quo culpa qui. Nihil error
+            necessitatibus distinctio explicabo et. Voluptas quas placeat. Quia
+            aut aut vel harum ullam eum. Nihil minima fugit fuga tempore eum aut
+            consequatur. Dolores iusto minus ab soluta in temporibus fuga.
+            Quaerat sit sequi temporibus voluptatem. Dolore aut rerum enim aut
+            suscipit facere. Libero
+          </p>
+           <button
+            class="bg-blue-500 py-3 px-5 rounded-xl font-bold text-lg my-5 shadow-lg shadow-blue-400"
+          >
+            See more
+          </button>
+        </div>
+      </div>
+    </section>
+  </body>
 </html>
