@@ -8,13 +8,13 @@
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
     <!-- this is the link of css -->
     <link rel="stylesheet" href="style.css" />
-    <!-- link of fontawesome -->
+    <!-- link of font awesome -->
     <script
       src="https://kit.fontawesome.com/3ee5fd7562.js"
       crossorigin="anonymous"
     ></script>
   </head>
-  <body>
+  <body class="inter-font">
     <!-- this is the header section -->
     <header class="bg-[#1C2226] text-white">
       <!-- this is the nav section -->
@@ -69,14 +69,16 @@
 
     <!-- this is the about section -->
     <section class="bg-[#25282A] text-white">
-      <div class="flex flex-col md:flex-row justify-between items-center w-10/12 mx-auto py-10">
+      <div
+        class="flex flex-col md:flex-row justify-between items-center w-10/12 mx-auto py-10"
+      >
         <div class="relative">
           <img class="w-full absolute top-14" src="images/banner.png" alt="" />
           <img class="w-full" src="images/rouded.png" alt="" />
         </div>
         <div class="w-full md:w-6/12 space-y-5 text-center md:text-start">
-          <h2 class="text-8xl font-bold">About me</h2>
-          <h2 class="text-6xl font-medium">UI/UX Designer</h2>
+          <h2 class="text-5xl font-bold">About me</h2>
+          <h2 class="text-4xl font-medium">UI/UX Designer</h2>
           <p class="text-2xl">
             Et blanditiis sit neque provident soluta quibusdam. Ut optio nobis.
             Eligendi voluptas qui maxime id quo culpa qui. Nihil error
@@ -86,11 +88,69 @@
             Quaerat sit sequi temporibus voluptatem. Dolore aut rerum enim aut
             suscipit facere. Libero
           </p>
-           <button
+          <button
             class="bg-blue-500 py-3 px-5 rounded-xl font-bold text-lg my-5 shadow-lg shadow-blue-400"
           >
             See more
           </button>
+        </div>
+      </div>
+    </section>
+
+    <!-- this is the skills section -->
+    <section class="bg-[#1C2226] text-white">
+      <div class="py-10 w-10/12 mx-auto">
+        <h2 class="text-5xl font-bold text-center">
+          My <span class="text-blue-400">Skills</span>
+        </h2>
+        <!-- this is the card section -->
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-10 py-10">
+          <!-- this is single card -->
+          <div
+            class="bg-[#1E1E1E] shadow-blue-900 shadow-md p-10 rounded-xl flex flex-col items-center gap-5 text-justify"
+          >
+            <div>
+              <div><img src="images/brush.png" alt="brush image" /></div>
+            </div>
+            <h3 class="text-3xl font-medium">UX/UI Designer</h3>
+            <p>
+              Et blanditiis sit neque provident soluta quibusdam. Ut optio
+              nobis. Eligendi voluptas qui maxime id quo culpa qui. Nihil error
+              necessitatibus distinctio explicabo et. Voluptas quas placeat.
+              Quia aut aut vel harum ullam eum. Nihil minima fugit fuga
+            </p>
+          </div>
+          <!-- this is single card -->
+          <div
+            class="bg-[#1E1E1E] shadow-blue-900 shadow-md p-10 rounded-xl flex flex-col items-center gap-5 text-justify"
+          >
+            <div>
+              <div><img src="images/brush.png" alt="brush image" /></div>
+            </div>
+            <h3 class="text-3xl font-medium">UX/UI Designer</h3>
+            <p>
+              Et blanditiis sit neque provident soluta quibusdam. Ut optio
+              nobis. Eligendi voluptas qui maxime id quo culpa qui. Nihil error
+              necessitatibus distinctio explicabo et. Voluptas quas placeat.
+              Quia aut aut vel harum ullam eum. Nihil minima fugit fuga
+            </p>
+          </div>
+          <!-- this is single card -->
+          <div
+            class="bg-[#1E1E1E] shadow-blue-900 shadow-md p-10 rounded-xl flex flex-col items-center gap-5 text-justify"
+          >
+            <div>
+              <div><img src="images/brush.png" alt="brush image" /></div>
+            </div>
+            <h3 class="text-3xl font-medium">UX/UI Designer</h3>
+            <p>
+              Et blanditiis sit neque provident soluta quibusdam. Ut optio
+              nobis. Eligendi voluptas qui maxime id quo culpa qui. Nihil error
+              necessitatibus distinctio explicabo et. Voluptas quas placeat.
+              Quia aut aut vel harum ullam eum. Nihil minima fugit fuga
+            </p>
+          </div>
+
         </div>
       </div>
     </section>
